@@ -1,18 +1,17 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         byte a = 127;
         short b = 32767;
         int c = 957875;
-        long d =9000000000000L;
+        long d = 9000000000000L;
         float x = 3.122F;
         double y = 12.27595;
-        System.out.println("Значение переменной 'a' с типом byte равно "+ a );
-        System.out.println("Значение переменной 'b' с типом short равно "+ b );
-        System.out.println("Значение переменной 'c' с типом int равно "+ c );
-        System.out.println("Значение переменной 'd' с типом long равно "+ d );
-        System.out.println("Значение переменной 'x' с типом float равно "+ x );
-        System.out.println("Значение переменной 'y' с типом double равно "+ y );
-
+        System.out.println("Значение переменной 'a' с типом byte равно " + a);
+        System.out.println("Значение переменной 'b' с типом short равно " + b);
+        System.out.println("Значение переменной 'c' с типом int равно " + c);
+        System.out.println("Значение переменной 'd' с типом long равно " + d);
+        System.out.println("Значение переменной 'x' с типом float равно " + x);
+        System.out.println("Значение переменной 'y' с типом double равно " + y);
 
 
         float variable1 = 27.12F;
@@ -55,7 +54,7 @@ public class Main {
         byte weightBananas = 80;
         short weightMilk100ml = 105;
         byte weightPlombir1Briquettes = 100;
-        byte  weightEgg = 70;
+        byte weightEgg = 70;
         int weight5Bananas = weightBananas * 5;
         int weightMilk200ml = weightMilk100ml * 2;
         int weightPlombir2Briquettes = weightPlombir1Briquettes * 2;
@@ -77,9 +76,9 @@ public class Main {
         float salaryMasha = 67760.00f;
         float salaryDenis = 83690.00f;
         float salaryKristina = 76230.00f;
-        float newSalaryMasha = salaryMasha/100*10+salaryMasha;
-        float newSalaryDenis = salaryDenis/100*10+salaryDenis;
-        float newSalaryKristina = salaryKristina/100*10+salaryKristina;
+        float newSalaryMasha = salaryMasha / 100 * 10 + salaryMasha;
+        float newSalaryDenis = salaryDenis / 100 * 10 + salaryDenis;
+        float newSalaryKristina = salaryKristina / 100 * 10 + salaryKristina;
         float annualIncomeMasha = salaryMasha * 12;
         float annualIncomeDenis = salaryDenis * 12;
         float annualIncomeKristina = salaryKristina * 12;
@@ -87,8 +86,8 @@ public class Main {
         float newAnnualIncomeDenis = newSalaryDenis * 12;
         float newAnnualIncomeKristina = newSalaryKristina * 12;
         float annualIncomeGrowthMasha = newAnnualIncomeMasha - annualIncomeMasha;
-        float annualIncomeGrowthDenis = newAnnualIncomeDenis -annualIncomeDenis;
-        float annualIncomeGrowthKristina = newAnnualIncomeKristina -annualIncomeKristina;
+        float annualIncomeGrowthDenis = newAnnualIncomeDenis - annualIncomeDenis;
+        float annualIncomeGrowthKristina = newAnnualIncomeKristina - annualIncomeKristina;
         System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + annualIncomeGrowthMasha + " рублей");
         System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + annualIncomeGrowthDenis + " рублей");
         System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + annualIncomeGrowthKristina + " рублей");
